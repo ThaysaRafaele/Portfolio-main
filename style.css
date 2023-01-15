@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap');
 
+.btnContato:hover{
+    background-color: #6e3830 !important;
+}
+
+.titleHeader:hover{
+    background-color: #cfaba6 !important;
+    color: #6e3830 !important;
+}
+
+.nav-link:hover{
+    background-color: #cfaba6 !important;
+    color: #6e3830 !important;
+}
+
 .imgProfile{
     max-width: max-content;
 }
@@ -8,20 +22,59 @@
     background-color: #A9675E;
 }
 
+.fa-linkedin {
+    color: #23272b !important;
+}
+
+.fa-at {
+    color: #23272b !important;
+}
+
+.fa-github{
+    color: #23272b !important;
+}
+
+.fa-github:hover {
+    color: #6e3830 !important;
+}
+
+.fa-at:hover {
+    color: #6e3830 !important;
+}
+
+.fa-linkedin:hover {
+    color: #6e3830 !important;
+}
+
+.github:hover{
+    background-color: #A9675E;
+}
+
+.linkedin:hover{
+    background-color: #A9675E;
+}
+
+.mail:hover{
+    background-color: #A9675E;
+}
+
 body
 {
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: #1e1e2a;
+    background-color: #a9675e8c !important;
 }
 
-.header-container
+.card-body{
+    background-color: #A9675E;
+}
+/* .header-container
 {
     height: 100vh;
     width: 100vw;
     background-color: #A9675E;
-    /* background-image: url('./Img/Design.svg'); */
+    // background-image: url('./Img/Design.svg'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -125,7 +178,6 @@ a:hover{
     display: none;
 }
 
-/* MENU */
 .menu
 {
     position: absolute;
@@ -171,7 +223,6 @@ a:hover{
     font-size: 40px
 }
 
-/* ANIMAÇÃO DO MENU */
 
 #toggle:checked + .checkbox .trace:nth-child(1)
 {
@@ -198,7 +249,7 @@ a:hover{
     background-color: #A9675E;
 }
 
-/* selector ~ pegar todos os itens abaixo */
+// selector ~ pegar todos os itens abaixo
 
 #toggle:checked ~ .menu
 {
@@ -212,7 +263,6 @@ a:hover{
     opacity: 1;
 }
 
-/* CARDS */
 
 .container
 {
@@ -241,7 +291,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url('./Img/lupa2-1.png'); */
+    // background-image: url('./Img/lupa2-1.png'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -250,7 +300,7 @@ a:hover{
     cursor: pointer;
     transition: 0.5s ease-in-out;
     color: #1e1e2a;
-}
+} 
 
 .card-text
 {
@@ -315,7 +365,7 @@ a:hover{
     filter: unset;
 }
 
-/* seletor > pega o filho */
+//seletor > pega o filho 
 
 .card:hover > .card-wrapper::before
 {
@@ -331,7 +381,6 @@ a:hover{
     font-size: 14px;
 }
 
-/* FOOTER */
 
 .footer
 {
@@ -342,4 +391,4 @@ a:hover{
     align-items: center;
     justify-content: center;
     color: #1e1e2a;
-}
+}  */
