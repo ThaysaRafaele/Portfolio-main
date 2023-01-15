@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800;900&display=swap');
 
+.imgProfile{
+    max-width: max-content;
+}
+
+#profile{
+    background-color: #A9675E;
+}
+
 body
 {
     padding: 0;
@@ -13,7 +21,7 @@ body
     height: 100vh;
     width: 100vw;
     background-color: #A9675E;
-    background-image: url('./Img/5.png');
+    /* background-image: url('./Img/Design.svg'); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
